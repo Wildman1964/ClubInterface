@@ -74,14 +74,15 @@ namespace ClubInterface
                 Console.WriteLine("Name: " + Fullname());
                 Console.WriteLine("Current: " + Current);
                 Console.WriteLine("Expiration Date: " + ExpDate);
+                Console.WriteLine("========================");
             }
         }
 
         static void Main(string[] args) 
         {
             Console.WriteLine("Membership Database Testing");
+            Console.WriteLine("");
             // test default constructor
-            Console.WriteLine("==============================");
             Console.WriteLine("Testing Default Constructor...");
             Member member01 = new Member();
             member01.memberData();
